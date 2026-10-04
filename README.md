@@ -116,3 +116,4 @@ Binary-to-Decimal-Converter-CSE260-BRACU/
 * As per the project instructions, only AND, OR gates have been used. It can be build through more advanced IC (ex: X-OR gate IC)
 
 ## The final Project 
+The_Project.jpeg

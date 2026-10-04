@@ -86,15 +86,13 @@ All ten maps with grouping steps and explanations are in [Section 6 of the desig
 **Individual output circuits:** [L1](diagrams/circuits/L1_circuit.svg) · [L2](diagrams/circuits/L2_circuit.svg) · [L3](diagrams/circuits/L3_circuit.svg) · [L4](diagrams/circuits/L4_circuit.svg) · [L5](diagrams/circuits/L5_circuit.svg) · [L6](diagrams/circuits/L6_circuit.svg) · [L7](diagrams/circuits/L7_circuit.svg) · [L8](diagrams/circuits/L8_circuit.svg) · [L9](diagrams/circuits/L9_circuit.svg) · [L10](diagrams/circuits/L10_circuit.svg). PNG copies are in [`diagrams/png/`](diagrams/png).
 
 ## Tools and components
-| Item | Qty | Notes |
+| Item | Qty 
 |:--|:-:|:--|
-| Quad 2-input OR, 74xx32 pin-out | 3 | Part type inferred from the OR labels and output pins 3/6/8/11 in the original sketch; exact part number not printed in the PDF |
-| Quad 2-input AND, 74xx08 pin-out | 2 | As above |
-| 4 binary inputs (e.g. switches) | 4 | Not shown in the PDF |
-| 10 output indicators (e.g. LEDs with resistors) | 10 | Not shown in the PDF; the PDF only labels the output lines L1–L10 |
-| +5 V supply (VCC = pin 14, GND = pin 7) | 1 | Standard for the listed ICs |
-
-Design/verification tools: pencil-and-paper K-maps (original), Python 3 (standard library) for verification and diagram generation, `cairosvg` (optional) for PNG export.
+| Quad 2-input OR, 74xx32 pin-out | 3 
+| Quad 2-input AND, 74xx08 pin-out | 2 
+| 4 binary inputs (e.g. switches) | 4 
+| 10 output indicators (e.g. LEDs with resistors) | 10 
+| +5 V supply (VCC = pin 14, GND = pin 7) | 1 
 
 ## Repository structure
 ```
@@ -102,21 +100,15 @@ Binary-to-Decimal-Converter-CSE260-BRACU/
 ├── README.md                       this file
 ├── LICENSE                         MIT license
 ├── data/
-│   └── truth_table.csv             full 16-row truth table (X = don't care)
+│   └── truth_table.csv             (X = don't care)
 ├── diagrams/
 │   ├── kmaps/                      L1_kmap.svg … L10_kmap.svg (grouped K-maps)
 │   ├── circuits/                   complete_circuit.svg, L1…L10_circuit.svg, ic_pin_allocation.svg
-│   └── png/                        PNG copies of every diagram
+│   ├── png/                        PNG copies of every diagram
+|   └── Hand-Written/               Containing design & diagram 
+|
 ├── docs/
-│   ├── Digital_Logic_Design.md     full report: derivations, K-maps, gates, ICs, verification
-│   ├── verification_log.txt        output of tools/verify_design.py
-│   ├── CSE260-Project-1_K-maps-completed.pdf   original PDF with the empty K-maps (L3-L10) filled in
-│   └── original/
-│       └── CSE260-Project-1.pdf    the original project PDF, unmodified
-└── tools/
-    ├── design_data.py              truth table, expressions, K-map groups, netlist, IC allocation
-    ├── generate_diagrams.py        builds all SVG/PNG diagrams from design_data.py
-    └── verify_design.py            exhaustive self-check of the whole design
+│    └── Digital_Logic_Design.md     full report: derivations, K-maps, gates, ICs, verification
 ```
 
 ## How to understand or reproduce the circuit
@@ -126,21 +118,5 @@ Binary-to-Decimal-Converter-CSE260-BRACU/
 4. Test by applying `0000` to `1010` and checking that exactly N lines (L1 first) light up.
 5. In software: `python3 tools/verify_design.py` re-runs every check; `python3 tools/generate_diagrams.py --png` regenerates the diagrams.
 
-## Verification
-`tools/verify_design.py` checks, with no third-party packages: the truth table against the rule *Lk = 1 ⇔ N ≥ k*; every PDF expression against the table; every K-map group (valid, prime, irredundant); the gate netlist for all 16 inputs; a **netlist extracted from the drawn circuit geometry** for the complete and the ten individual diagrams; and the IC pin allocation. All checks pass (see [`docs/verification_log.txt`](docs/verification_log.txt)).
-
-## Source material and assumptions
-* The truth table, the ten simplified expressions, the schematic and the IC sketch come from [`docs/original/CSE260-Project-1.pdf`](docs/original/CSE260-Project-1.pdf). That PDF was the only project file supplied; no HDL, simulator or other source files existed, so none are included.
-* The PDF contains K-maps only for L1 and L2; the other eight were completed from the truth table and agree with the PDF's printed expressions. The completed pages are in [`docs/CSE260-Project-1_K-maps-completed.pdf`](docs/CSE260-Project-1_K-maps-completed.pdf) (1 = stroke, X = don't care, blank = 0, as on the original L1/L2 maps).
-* The IC pin table is a reference allocation consistent with the schematic and with the output labels legible in the PDF's IC sketch. The report states which entries are labelled in the PDF and which are inferred.
-* Switches, LEDs, resistors and power wiring are not shown in the PDF and are not specified here.
-
-## License
-Released under the MIT License; see [`LICENSE`](LICENSE).
-
 ## Limitations and possible improvements
 * The result is a bar of lit lines, not a numeral.
-* Inputs 11–15 give unflagged patterns (11/14/15 light all ten lines, 13 lights nine, 12 lights eight). An error flag `E = A(B + CD)` would cost two gates and reuse the existing `CD` gate.
-* Two identical `C + D` OR gates (L1 and L9) could be merged into one.
-* No input debouncing or output current-limiting is described in the source.
-* A simulator model (Logisim-evolution or Verilog) would make the design runnable without hardware.

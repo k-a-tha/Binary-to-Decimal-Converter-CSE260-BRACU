@@ -1,0 +1,251 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1330 700" width="1330" height="700" font-family="Helvetica, Arial, sans-serif">
+<rect width="1330" height="700" fill="#fff"/>
+<text x="24" y="32" font-size="20" font-weight="bold">IC pin allocation (reference wiring plan)</text>
+<text x="24" y="54" font-size="12" fill="#555">Each pin shows the signal connected to it; pins with the same label are joined. Top view, notch up, pin 1 top-left. Unused gates: tie their inputs to GND.</text>
+<text x="225.0" y="88" font-size="14" font-weight="bold" text-anchor="middle">U1: 74xx32 (quad 2-input OR)</text>
+<rect x="150" y="100" width="150" height="262" fill="#f4f6fa" stroke="#111" stroke-width="2"/>
+<path d="M 213.0,100 A 12 12 0 0 0 237.0,100" fill="#fff" stroke="#111" stroke-width="2"/>
+<line x1="150" y1="122" x2="134" y2="122" stroke="#111" stroke-width="2"/>
+<text x="162" y="126" font-size="11" fill="#555" text-anchor="start">1</text>
+<text x="128" y="126" font-size="12" fill="#111" text-anchor="end">A</text>
+<line x1="150" y1="156" x2="134" y2="156" stroke="#111" stroke-width="2"/>
+<text x="162" y="160" font-size="11" fill="#555" text-anchor="start">2</text>
+<text x="128" y="160" font-size="12" fill="#111" text-anchor="end">B</text>
+<line x1="150" y1="190" x2="134" y2="190" stroke="#111" stroke-width="2"/>
+<text x="162" y="194" font-size="11" fill="#555" text-anchor="start">3</text>
+<text x="128" y="194" font-size="12" fill="#111" text-anchor="end">A+B (L4)</text>
+<line x1="150" y1="224" x2="134" y2="224" stroke="#111" stroke-width="2"/>
+<text x="162" y="228" font-size="11" fill="#555" text-anchor="start">4</text>
+<text x="128" y="228" font-size="12" fill="#111" text-anchor="end">C</text>
+<line x1="150" y1="258" x2="134" y2="258" stroke="#111" stroke-width="2"/>
+<text x="162" y="262" font-size="11" fill="#555" text-anchor="start">5</text>
+<text x="128" y="262" font-size="12" fill="#111" text-anchor="end">D</text>
+<line x1="150" y1="292" x2="134" y2="292" stroke="#111" stroke-width="2"/>
+<text x="162" y="296" font-size="11" fill="#555" text-anchor="start">6</text>
+<text x="128" y="296" font-size="12" fill="#111" text-anchor="end">C+D</text>
+<line x1="150" y1="326" x2="134" y2="326" stroke="#111" stroke-width="2"/>
+<text x="162" y="330" font-size="11" fill="#555" text-anchor="start">7</text>
+<text x="128" y="330" font-size="12" fill="#444" text-anchor="end">GND</text>
+<line x1="300" y1="326" x2="316" y2="326" stroke="#111" stroke-width="2"/>
+<text x="288" y="330" font-size="11" fill="#555" text-anchor="end">8</text>
+<text x="322" y="330" font-size="12" fill="#b00020" font-weight="bold" text-anchor="start">L1</text>
+<line x1="300" y1="292" x2="316" y2="292" stroke="#111" stroke-width="2"/>
+<text x="288" y="296" font-size="11" fill="#555" text-anchor="end">9</text>
+<text x="322" y="296" font-size="12" fill="#111" text-anchor="start">A+B (L4)</text>
+<line x1="300" y1="258" x2="316" y2="258" stroke="#111" stroke-width="2"/>
+<text x="288" y="262" font-size="11" fill="#555" text-anchor="end">10</text>
+<text x="322" y="262" font-size="12" fill="#111" text-anchor="start">C+D</text>
+<line x1="300" y1="224" x2="316" y2="224" stroke="#111" stroke-width="2"/>
+<text x="288" y="228" font-size="11" fill="#555" text-anchor="end">11</text>
+<text x="322" y="228" font-size="12" fill="#b00020" font-weight="bold" text-anchor="start">L2</text>
+<line x1="300" y1="190" x2="316" y2="190" stroke="#111" stroke-width="2"/>
+<text x="288" y="194" font-size="11" fill="#555" text-anchor="end">12</text>
+<text x="322" y="194" font-size="12" fill="#111" text-anchor="start">A+B (L4)</text>
+<line x1="300" y1="156" x2="316" y2="156" stroke="#111" stroke-width="2"/>
+<text x="288" y="160" font-size="11" fill="#555" text-anchor="end">13</text>
+<text x="322" y="160" font-size="12" fill="#111" text-anchor="start">C</text>
+<line x1="300" y1="122" x2="316" y2="122" stroke="#111" stroke-width="2"/>
+<text x="288" y="126" font-size="11" fill="#555" text-anchor="end">14</text>
+<text x="322" y="126" font-size="12" fill="#444" text-anchor="start">VCC (+5 V)</text>
+<text x="184" y="160" font-size="12" fill="#1a4fa0" text-anchor="start">G1</text>
+<text x="184" y="262" font-size="12" fill="#1a4fa0" text-anchor="start">G2</text>
+<text x="266" y="296" font-size="12" fill="#1a4fa0" text-anchor="end">G3</text>
+<text x="266" y="194" font-size="12" fill="#1a4fa0" text-anchor="end">G4</text>
+<text x="655.0" y="88" font-size="14" font-weight="bold" text-anchor="middle">U2: 74xx32 (quad 2-input OR)</text>
+<rect x="580" y="100" width="150" height="262" fill="#f4f6fa" stroke="#111" stroke-width="2"/>
+<path d="M 643.0,100 A 12 12 0 0 0 667.0,100" fill="#fff" stroke="#111" stroke-width="2"/>
+<line x1="580" y1="122" x2="564" y2="122" stroke="#111" stroke-width="2"/>
+<text x="592" y="126" font-size="11" fill="#555" text-anchor="start">1</text>
+<text x="558" y="126" font-size="12" fill="#111" text-anchor="end">C</text>
+<line x1="580" y1="156" x2="564" y2="156" stroke="#111" stroke-width="2"/>
+<text x="592" y="160" font-size="11" fill="#555" text-anchor="start">2</text>
+<text x="558" y="160" font-size="12" fill="#111" text-anchor="end">D</text>
+<line x1="580" y1="190" x2="564" y2="190" stroke="#111" stroke-width="2"/>
+<text x="592" y="194" font-size="11" fill="#555" text-anchor="start">3</text>
+<text x="558" y="194" font-size="12" fill="#111" text-anchor="end">C+D (2nd)</text>
+<line x1="580" y1="224" x2="564" y2="224" stroke="#111" stroke-width="2"/>
+<text x="592" y="228" font-size="11" fill="#555" text-anchor="start">4</text>
+<text x="558" y="228" font-size="12" fill="#111" text-anchor="end">CD</text>
+<line x1="580" y1="258" x2="564" y2="258" stroke="#111" stroke-width="2"/>
+<text x="592" y="262" font-size="11" fill="#555" text-anchor="start">5</text>
+<text x="558" y="262" font-size="12" fill="#111" text-anchor="end">A+B (L4)</text>
+<line x1="580" y1="292" x2="564" y2="292" stroke="#111" stroke-width="2"/>
+<text x="592" y="296" font-size="11" fill="#555" text-anchor="start">6</text>
+<text x="558" y="296" font-size="12" fill="#b00020" font-weight="bold" text-anchor="end">L3</text>
+<line x1="580" y1="326" x2="564" y2="326" stroke="#111" stroke-width="2"/>
+<text x="592" y="330" font-size="11" fill="#555" text-anchor="start">7</text>
+<text x="558" y="330" font-size="12" fill="#444" text-anchor="end">GND</text>
+<line x1="730" y1="326" x2="746" y2="326" stroke="#111" stroke-width="2"/>
+<text x="718" y="330" font-size="11" fill="#555" text-anchor="end">8</text>
+<text x="752" y="330" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="292" x2="746" y2="292" stroke="#111" stroke-width="2"/>
+<text x="718" y="296" font-size="11" fill="#555" text-anchor="end">9</text>
+<text x="752" y="296" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="258" x2="746" y2="258" stroke="#111" stroke-width="2"/>
+<text x="718" y="262" font-size="11" fill="#555" text-anchor="end">10</text>
+<text x="752" y="262" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="224" x2="746" y2="224" stroke="#111" stroke-width="2"/>
+<text x="718" y="228" font-size="11" fill="#555" text-anchor="end">11</text>
+<text x="752" y="228" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="190" x2="746" y2="190" stroke="#111" stroke-width="2"/>
+<text x="718" y="194" font-size="11" fill="#555" text-anchor="end">12</text>
+<text x="752" y="194" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="156" x2="746" y2="156" stroke="#111" stroke-width="2"/>
+<text x="718" y="160" font-size="11" fill="#555" text-anchor="end">13</text>
+<text x="752" y="160" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="122" x2="746" y2="122" stroke="#111" stroke-width="2"/>
+<text x="718" y="126" font-size="11" fill="#555" text-anchor="end">14</text>
+<text x="752" y="126" font-size="12" fill="#444" text-anchor="start">VCC (+5 V)</text>
+<text x="614" y="160" font-size="12" fill="#1a4fa0" text-anchor="start">G14</text>
+<text x="614" y="262" font-size="12" fill="#1a4fa0" text-anchor="start">G6</text>
+<text x="696" y="296" font-size="12" fill="#1a4fa0" text-anchor="end">-</text>
+<text x="696" y="194" font-size="12" fill="#1a4fa0" text-anchor="end">-</text>
+<text x="1085.0" y="88" font-size="14" font-weight="bold" text-anchor="middle">U3: 74xx32 (quad 2-input OR)</text>
+<rect x="1010" y="100" width="150" height="262" fill="#f4f6fa" stroke="#111" stroke-width="2"/>
+<path d="M 1073.0,100 A 12 12 0 0 0 1097.0,100" fill="#fff" stroke="#111" stroke-width="2"/>
+<line x1="1010" y1="122" x2="994" y2="122" stroke="#111" stroke-width="2"/>
+<text x="1022" y="126" font-size="11" fill="#555" text-anchor="start">1</text>
+<text x="988" y="126" font-size="12" fill="#111" text-anchor="end">BC</text>
+<line x1="1010" y1="156" x2="994" y2="156" stroke="#111" stroke-width="2"/>
+<text x="1022" y="160" font-size="11" fill="#555" text-anchor="start">2</text>
+<text x="988" y="160" font-size="12" fill="#111" text-anchor="end">BD</text>
+<line x1="1010" y1="190" x2="994" y2="190" stroke="#111" stroke-width="2"/>
+<text x="1022" y="194" font-size="11" fill="#555" text-anchor="start">3</text>
+<text x="988" y="194" font-size="12" fill="#111" text-anchor="end">BC+BD</text>
+<line x1="1010" y1="224" x2="994" y2="224" stroke="#111" stroke-width="2"/>
+<text x="1022" y="228" font-size="11" fill="#555" text-anchor="start">4</text>
+<text x="988" y="228" font-size="12" fill="#111" text-anchor="end">BC+BD</text>
+<line x1="1010" y1="258" x2="994" y2="258" stroke="#111" stroke-width="2"/>
+<text x="1022" y="262" font-size="11" fill="#555" text-anchor="start">5</text>
+<text x="988" y="262" font-size="12" fill="#111" text-anchor="end">A</text>
+<line x1="1010" y1="292" x2="994" y2="292" stroke="#111" stroke-width="2"/>
+<text x="1022" y="296" font-size="11" fill="#555" text-anchor="start">6</text>
+<text x="988" y="296" font-size="12" fill="#b00020" font-weight="bold" text-anchor="end">L5</text>
+<line x1="1010" y1="326" x2="994" y2="326" stroke="#111" stroke-width="2"/>
+<text x="1022" y="330" font-size="11" fill="#555" text-anchor="start">7</text>
+<text x="988" y="330" font-size="12" fill="#444" text-anchor="end">GND</text>
+<line x1="1160" y1="326" x2="1176" y2="326" stroke="#111" stroke-width="2"/>
+<text x="1148" y="330" font-size="11" fill="#555" text-anchor="end">8</text>
+<text x="1182" y="330" font-size="12" fill="#b00020" font-weight="bold" text-anchor="start">L6</text>
+<line x1="1160" y1="292" x2="1176" y2="292" stroke="#111" stroke-width="2"/>
+<text x="1148" y="296" font-size="11" fill="#555" text-anchor="end">9</text>
+<text x="1182" y="296" font-size="12" fill="#111" text-anchor="start">BC</text>
+<line x1="1160" y1="258" x2="1176" y2="258" stroke="#111" stroke-width="2"/>
+<text x="1148" y="262" font-size="11" fill="#555" text-anchor="end">10</text>
+<text x="1182" y="262" font-size="12" fill="#111" text-anchor="start">A</text>
+<line x1="1160" y1="224" x2="1176" y2="224" stroke="#111" stroke-width="2"/>
+<text x="1148" y="228" font-size="11" fill="#555" text-anchor="end">11</text>
+<text x="1182" y="228" font-size="12" fill="#b00020" font-weight="bold" text-anchor="start">L7</text>
+<line x1="1160" y1="190" x2="1176" y2="190" stroke="#111" stroke-width="2"/>
+<text x="1148" y="194" font-size="11" fill="#555" text-anchor="end">12</text>
+<text x="1182" y="194" font-size="12" fill="#111" text-anchor="start">A</text>
+<line x1="1160" y1="156" x2="1176" y2="156" stroke="#111" stroke-width="2"/>
+<text x="1148" y="160" font-size="11" fill="#555" text-anchor="end">13</text>
+<text x="1182" y="160" font-size="12" fill="#111" text-anchor="start">BCD</text>
+<line x1="1160" y1="122" x2="1176" y2="122" stroke="#111" stroke-width="2"/>
+<text x="1148" y="126" font-size="11" fill="#555" text-anchor="end">14</text>
+<text x="1182" y="126" font-size="12" fill="#444" text-anchor="start">VCC (+5 V)</text>
+<text x="1044" y="160" font-size="12" fill="#1a4fa0" text-anchor="start">G9</text>
+<text x="1044" y="262" font-size="12" fill="#1a4fa0" text-anchor="start">G10</text>
+<text x="1126" y="296" font-size="12" fill="#1a4fa0" text-anchor="end">G11</text>
+<text x="1126" y="194" font-size="12" fill="#1a4fa0" text-anchor="end">G13</text>
+<text x="225.0" y="388" font-size="14" font-weight="bold" text-anchor="middle">U4: 74xx08 (quad 2-input AND)</text>
+<rect x="150" y="400" width="150" height="262" fill="#f4f6fa" stroke="#111" stroke-width="2"/>
+<path d="M 213.0,400 A 12 12 0 0 0 237.0,400" fill="#fff" stroke="#111" stroke-width="2"/>
+<line x1="150" y1="422" x2="134" y2="422" stroke="#111" stroke-width="2"/>
+<text x="162" y="426" font-size="11" fill="#555" text-anchor="start">1</text>
+<text x="128" y="426" font-size="12" fill="#111" text-anchor="end">C</text>
+<line x1="150" y1="456" x2="134" y2="456" stroke="#111" stroke-width="2"/>
+<text x="162" y="460" font-size="11" fill="#555" text-anchor="start">2</text>
+<text x="128" y="460" font-size="12" fill="#111" text-anchor="end">D</text>
+<line x1="150" y1="490" x2="134" y2="490" stroke="#111" stroke-width="2"/>
+<text x="162" y="494" font-size="11" fill="#555" text-anchor="start">3</text>
+<text x="128" y="494" font-size="12" fill="#111" text-anchor="end">CD</text>
+<line x1="150" y1="524" x2="134" y2="524" stroke="#111" stroke-width="2"/>
+<text x="162" y="528" font-size="11" fill="#555" text-anchor="start">4</text>
+<text x="128" y="528" font-size="12" fill="#999" font-style="italic" text-anchor="end">unused</text>
+<line x1="150" y1="558" x2="134" y2="558" stroke="#111" stroke-width="2"/>
+<text x="162" y="562" font-size="11" fill="#555" text-anchor="start">5</text>
+<text x="128" y="562" font-size="12" fill="#999" font-style="italic" text-anchor="end">unused</text>
+<line x1="150" y1="592" x2="134" y2="592" stroke="#111" stroke-width="2"/>
+<text x="162" y="596" font-size="11" fill="#555" text-anchor="start">6</text>
+<text x="128" y="596" font-size="12" fill="#999" font-style="italic" text-anchor="end">unused</text>
+<line x1="150" y1="626" x2="134" y2="626" stroke="#111" stroke-width="2"/>
+<text x="162" y="630" font-size="11" fill="#555" text-anchor="start">7</text>
+<text x="128" y="630" font-size="12" fill="#444" text-anchor="end">GND</text>
+<line x1="300" y1="626" x2="316" y2="626" stroke="#111" stroke-width="2"/>
+<text x="288" y="630" font-size="11" fill="#555" text-anchor="end">8</text>
+<text x="322" y="630" font-size="12" fill="#111" text-anchor="start">BC</text>
+<line x1="300" y1="592" x2="316" y2="592" stroke="#111" stroke-width="2"/>
+<text x="288" y="596" font-size="11" fill="#555" text-anchor="end">9</text>
+<text x="322" y="596" font-size="12" fill="#111" text-anchor="start">B</text>
+<line x1="300" y1="558" x2="316" y2="558" stroke="#111" stroke-width="2"/>
+<text x="288" y="562" font-size="11" fill="#555" text-anchor="end">10</text>
+<text x="322" y="562" font-size="12" fill="#111" text-anchor="start">C</text>
+<line x1="300" y1="524" x2="316" y2="524" stroke="#111" stroke-width="2"/>
+<text x="288" y="528" font-size="11" fill="#555" text-anchor="end">11</text>
+<text x="322" y="528" font-size="12" fill="#111" text-anchor="start">BD</text>
+<line x1="300" y1="490" x2="316" y2="490" stroke="#111" stroke-width="2"/>
+<text x="288" y="494" font-size="11" fill="#555" text-anchor="end">12</text>
+<text x="322" y="494" font-size="12" fill="#111" text-anchor="start">B</text>
+<line x1="300" y1="456" x2="316" y2="456" stroke="#111" stroke-width="2"/>
+<text x="288" y="460" font-size="11" fill="#555" text-anchor="end">13</text>
+<text x="322" y="460" font-size="12" fill="#111" text-anchor="start">D</text>
+<line x1="300" y1="422" x2="316" y2="422" stroke="#111" stroke-width="2"/>
+<text x="288" y="426" font-size="11" fill="#555" text-anchor="end">14</text>
+<text x="322" y="426" font-size="12" fill="#444" text-anchor="start">VCC (+5 V)</text>
+<text x="184" y="460" font-size="12" fill="#1a4fa0" text-anchor="start">G5</text>
+<text x="184" y="562" font-size="12" fill="#1a4fa0" text-anchor="start">-</text>
+<text x="266" y="596" font-size="12" fill="#1a4fa0" text-anchor="end">G7</text>
+<text x="266" y="494" font-size="12" fill="#1a4fa0" text-anchor="end">G8</text>
+<text x="655.0" y="388" font-size="14" font-weight="bold" text-anchor="middle">U5: 74xx08 (quad 2-input AND)</text>
+<rect x="580" y="400" width="150" height="262" fill="#f4f6fa" stroke="#111" stroke-width="2"/>
+<path d="M 643.0,400 A 12 12 0 0 0 667.0,400" fill="#fff" stroke="#111" stroke-width="2"/>
+<line x1="580" y1="422" x2="564" y2="422" stroke="#111" stroke-width="2"/>
+<text x="592" y="426" font-size="11" fill="#555" text-anchor="start">1</text>
+<text x="558" y="426" font-size="12" fill="#111" text-anchor="end">D</text>
+<line x1="580" y1="456" x2="564" y2="456" stroke="#111" stroke-width="2"/>
+<text x="592" y="460" font-size="11" fill="#555" text-anchor="start">2</text>
+<text x="558" y="460" font-size="12" fill="#111" text-anchor="end">BC</text>
+<line x1="580" y1="490" x2="564" y2="490" stroke="#111" stroke-width="2"/>
+<text x="592" y="494" font-size="11" fill="#555" text-anchor="start">3</text>
+<text x="558" y="494" font-size="12" fill="#111" text-anchor="end">BCD</text>
+<line x1="580" y1="524" x2="564" y2="524" stroke="#111" stroke-width="2"/>
+<text x="592" y="528" font-size="11" fill="#555" text-anchor="start">4</text>
+<text x="558" y="528" font-size="12" fill="#111" text-anchor="end">C+D (2nd)</text>
+<line x1="580" y1="558" x2="564" y2="558" stroke="#111" stroke-width="2"/>
+<text x="592" y="562" font-size="11" fill="#555" text-anchor="start">5</text>
+<text x="558" y="562" font-size="12" fill="#111" text-anchor="end">A</text>
+<line x1="580" y1="592" x2="564" y2="592" stroke="#111" stroke-width="2"/>
+<text x="592" y="596" font-size="11" fill="#555" text-anchor="start">6</text>
+<text x="558" y="596" font-size="12" fill="#b00020" font-weight="bold" text-anchor="end">L9</text>
+<line x1="580" y1="626" x2="564" y2="626" stroke="#111" stroke-width="2"/>
+<text x="592" y="630" font-size="11" fill="#555" text-anchor="start">7</text>
+<text x="558" y="630" font-size="12" fill="#444" text-anchor="end">GND</text>
+<line x1="730" y1="626" x2="746" y2="626" stroke="#111" stroke-width="2"/>
+<text x="718" y="630" font-size="11" fill="#555" text-anchor="end">8</text>
+<text x="752" y="630" font-size="12" fill="#b00020" font-weight="bold" text-anchor="start">L10</text>
+<line x1="730" y1="592" x2="746" y2="592" stroke="#111" stroke-width="2"/>
+<text x="718" y="596" font-size="11" fill="#555" text-anchor="end">9</text>
+<text x="752" y="596" font-size="12" fill="#111" text-anchor="start">C</text>
+<line x1="730" y1="558" x2="746" y2="558" stroke="#111" stroke-width="2"/>
+<text x="718" y="562" font-size="11" fill="#555" text-anchor="end">10</text>
+<text x="752" y="562" font-size="12" fill="#111" text-anchor="start">A</text>
+<line x1="730" y1="524" x2="746" y2="524" stroke="#111" stroke-width="2"/>
+<text x="718" y="528" font-size="11" fill="#555" text-anchor="end">11</text>
+<text x="752" y="528" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="490" x2="746" y2="490" stroke="#111" stroke-width="2"/>
+<text x="718" y="494" font-size="11" fill="#555" text-anchor="end">12</text>
+<text x="752" y="494" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="456" x2="746" y2="456" stroke="#111" stroke-width="2"/>
+<text x="718" y="460" font-size="11" fill="#555" text-anchor="end">13</text>
+<text x="752" y="460" font-size="12" fill="#999" font-style="italic" text-anchor="start">unused</text>
+<line x1="730" y1="422" x2="746" y2="422" stroke="#111" stroke-width="2"/>
+<text x="718" y="426" font-size="11" fill="#555" text-anchor="end">14</text>
+<text x="752" y="426" font-size="12" fill="#444" text-anchor="start">VCC (+5 V)</text>
+<text x="614" y="460" font-size="12" fill="#1a4fa0" text-anchor="start">G12</text>
+<text x="614" y="562" font-size="12" fill="#1a4fa0" text-anchor="start">G15</text>
+<text x="696" y="596" font-size="12" fill="#1a4fa0" text-anchor="end">G16</text>
+<text x="696" y="494" font-size="12" fill="#1a4fa0" text-anchor="end">-</text>
+<text x="24" y="684" font-size="11" fill="#444">Blue label inside each package = gate ID from the gate table. Red = output lines L1-L10 (L4 is the A+B net on U1 pin 3; L8 is input A itself).</text>
+</svg>

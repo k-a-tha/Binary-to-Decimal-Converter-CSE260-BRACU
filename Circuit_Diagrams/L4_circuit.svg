@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 535 186" width="535" height="186" font-family="Helvetica, Arial, sans-serif">
+<rect width="535" height="186" fill="#fff"/>
+<text x="24" y="32" font-size="20" font-weight="bold">L4 = A + B</text>
+<text x="24" y="54" font-size="12" fill="#555">Lit when N &gt;= 4.  Gate IDs match the complete circuit.</text>
+<path d="M 265,124 L 335,124" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 70,94 L 70,114" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 110,114 L 110,134" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 70,114 L 216,114" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 110,134 L 216,134" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 210,104 C 240,104 256,116 265,124 C 256,132 240,144 210,144 Q 225,124 210,104 Z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/><text x="210" y="99" font-size="11" fill="#666" font-family="Helvetica, Arial, sans-serif">G1 (OR)</text>
+<circle cx="110" cy="134" r="3.4" fill="#1a4fa0"/>
+<circle cx="70" cy="114" r="3.4" fill="#1a4fa0"/>
+<circle cx="335" cy="124" r="5" fill="#fff" stroke="#b00020" stroke-width="2"/><text x="349" y="129" font-size="14" font-weight="bold" fill="#b00020">L4 = A + B</text>
+<text x="70" y="86" font-size="15" font-weight="bold" text-anchor="middle">A</text>
+<text x="110" y="106" font-size="15" font-weight="bold" text-anchor="middle">B</text>
+</svg>

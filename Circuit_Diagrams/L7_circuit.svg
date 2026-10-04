@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 915 336" width="915" height="336" font-family="Helvetica, Arial, sans-serif">
+<rect width="915" height="336" fill="#fff"/>
+<text x="24" y="32" font-size="20" font-weight="bold">L7 = A + BCD</text>
+<text x="24" y="54" font-size="12" fill="#555">Lit when N &gt;= 7.  Gate IDs match the complete circuit.</text>
+<path d="M 340,274 L 390,274 L 390,234 L 440,234" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 490,224 L 543,224 L 543,134 L 596,134" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 645,124 L 715,124" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 70,94 L 70,114" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 110,244 L 110,264" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 150,264 L 150,284" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 190,194 L 190,214" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 70,114 L 596,114" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 190,214 L 440,214" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 110,264 L 290,264" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 150,284 L 290,284" fill="none" stroke="#1a4fa0" stroke-width="1.8" stroke-linejoin="round"/>
+<path d="M 590,104 C 620,104 636,116 645,124 C 636,132 620,144 590,144 Q 605,124 590,104 Z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/><text x="590" y="99" font-size="11" fill="#666" font-family="Helvetica, Arial, sans-serif">G13 (OR)</text>
+<path d="M 440,204 H 470 A 20 20 0 0 1 470,244 H 440 Z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/><text x="440" y="199" font-size="11" fill="#666" font-family="Helvetica, Arial, sans-serif">G12 (AND)</text>
+<path d="M 290,254 H 320 A 20 20 0 0 1 320,294 H 290 Z" fill="#fff" stroke="#111" stroke-width="2" stroke-linejoin="round"/><text x="290" y="249" font-size="11" fill="#666" font-family="Helvetica, Arial, sans-serif">G7 (AND)</text>
+<circle cx="110" cy="264" r="3.4" fill="#1a4fa0"/>
+<circle cx="150" cy="284" r="3.4" fill="#1a4fa0"/>
+<circle cx="190" cy="214" r="3.4" fill="#1a4fa0"/>
+<circle cx="70" cy="114" r="3.4" fill="#1a4fa0"/>
+<circle cx="715" cy="124" r="5" fill="#fff" stroke="#b00020" stroke-width="2"/><text x="729" y="129" font-size="14" font-weight="bold" fill="#b00020">L7 = A + BCD</text>
+<text x="70" y="86" font-size="15" font-weight="bold" text-anchor="middle">A</text>
+<text x="110" y="236" font-size="15" font-weight="bold" text-anchor="middle">B</text>
+<text x="150" y="256" font-size="15" font-weight="bold" text-anchor="middle">C</text>
+<text x="190" y="186" font-size="15" font-weight="bold" text-anchor="middle">D</text>
+</svg>

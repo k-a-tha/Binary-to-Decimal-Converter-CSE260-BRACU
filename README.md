@@ -115,5 +115,6 @@ Binary-to-Decimal-Converter-CSE260-BRACU/
 * The result is a bar of lit lines, not a numeral.
 * As per the project instructions, only AND, OR gates have been used. It can be build through more advanced IC (ex: X-OR gate IC)
 
-## The final Project 
-The_Project.jpeg
+## The final Project
+
+![The final project](The_Project.jpeg)

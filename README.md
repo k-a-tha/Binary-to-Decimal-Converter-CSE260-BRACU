@@ -108,8 +108,11 @@ Binary-to-Decimal-Converter-CSE260-BRACU/
 |   └── Hand-Written/               Containing design & diagram 
 |
 ├── docs/
-│    └── Digital_Logic_Design.md     full report: derivations, K-maps, gates, ICs, verification
+│    └── Digital_Logic_Design.md    Full report: derivations, K-maps, gates, ICs, verification
+└──  The_Project                    Final photo of the project
 ```
 ## Limitations and possible improvements
 * The result is a bar of lit lines, not a numeral.
 * As per the project instructions, only AND, OR gates have been used. It can be build through more advanced IC (ex: X-OR gate IC)
+
+## The final Project 

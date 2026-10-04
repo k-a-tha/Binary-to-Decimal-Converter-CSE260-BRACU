@@ -92,7 +92,7 @@ All ten maps with grouping steps and explanations are in [Section 6 of the desig
 | Quad 2-input AND, 74xx08 pin-out | 2 
 | 4 binary inputs (e.g. switches) | 4 
 | 10 output indicators (e.g. LEDs with resistors) | 10 
-| +5 V supply (VCC = pin 14, GND = pin 7) | 1 
+| +5 V supply battery | 1 
 
 ## Repository structure
 ```
@@ -110,13 +110,6 @@ Binary-to-Decimal-Converter-CSE260-BRACU/
 ├── docs/
 │    └── Digital_Logic_Design.md     full report: derivations, K-maps, gates, ICs, verification
 ```
-
-## How to understand or reproduce the circuit
-1. Read the truth table above: the number of lit outputs equals the binary input value.
-2. For any output, open its K-map in `diagrams/kmaps/` and its circuit in `diagrams/circuits/` — the groups on the map are the AND terms feeding the final OR gate.
-3. To build it, place the five ICs as in [`ic_pin_allocation.svg`](diagrams/circuits/ic_pin_allocation.svg), connect VCC/GND, tie unused gate inputs to GND, and join pins that carry the same signal name (the full gate and pin table is in [Section 9 of the report](docs/Digital_Logic_Design.md#9-ic-level-implementation)).
-4. Test by applying `0000` to `1010` and checking that exactly N lines (L1 first) light up.
-5. In software: `python3 tools/verify_design.py` re-runs every check; `python3 tools/generate_diagrams.py --png` regenerates the diagrams.
-
 ## Limitations and possible improvements
 * The result is a bar of lit lines, not a numeral.
+* As per the project instructions, only AND, OR gates have been used. It can be build through more advanced IC (ex: X-OR gate IC)

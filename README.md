@@ -5,7 +5,7 @@ A combinational digital-logic project that converts a **4-bit binary input (0000
 ![Complete circuit](diagrams/circuits/complete_circuit.svg)
 
 ## Contents
-[Objectives](#objectives) · [Features](#features-and-conversion-range) · [Working principle](#working-principle) · [Truth table](#truth-table) · [Boolean equations](#simplified-boolean-equations) · [K-maps](#k-map-method) · [Circuit diagrams](#circuit-diagrams) · [Components](#tools-and-components) · [Files](#repository-structure) · [Reproduce](#how-to-understand-or-reproduce-the-circuit) · [Verification](#verification) · [Source and assumptions](#source-material-and-assumptions) · [Limitations](#limitations-and-possible-improvements)
+[Objectives](#objectives) · [Features](#features-and-conversion-range) · [Working principle](#working-principle) · [Truth table](#truth-table) · [Boolean equations](#simplified-boolean-equations) · [K-maps](#k-map-method) · [Circuit diagrams](#circuit-diagrams) · [Components](#tools-and-components) · [Files](#repository-structure) · [Limitations](#limitations-and-possible-improvements)
 
 ## Objectives
 * Convert a valid 4-bit binary number (0–10) into a decimal indication.

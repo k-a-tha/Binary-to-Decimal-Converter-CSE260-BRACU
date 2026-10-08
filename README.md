@@ -5,7 +5,7 @@ A combinational digital-logic project that converts a **4-bit binary input (0000
 ![Complete circuit](diagrams/circuits/complete_circuit.svg)
 
 ## Contents
-[Objectives](#objectives) · [Features](#features-and-conversion-range) · [Working principle](#working-principle) · [Truth table](#truth-table) · [Boolean equations](#simplified-boolean-equations) · [K-maps](#k-map-method) · [Circuit diagrams](#circuit-diagrams) · [Components](#tools-and-components) · [Files](#repository-structure) · [Limitations](#limitations-and-possible-improvements)
+[Objectives](#objectives) · [Features](#features-and-conversion-range) · [Working principle](#working-principle) · [Truth table](#truth-table) · [Boolean equations](#simplified-boolean-equations) · [K-maps](#k-map-method) · [Circuit diagrams](#circuit-diagrams) · [Files](#repository-structure) · [Limitations](#limitations-and-possible-improvements)
 
 ## Objectives
 * Convert a valid 4-bit binary number (0–10) into a decimal indication.
@@ -84,15 +84,6 @@ All ten maps with grouping steps and explanations are in [Section 6 of the desig
 ![IC pin allocation](diagrams/circuits/ic_pin_allocation.svg)
 
 **Individual output circuits:** [L1](diagrams/circuits/L1_circuit.svg) · [L2](diagrams/circuits/L2_circuit.svg) · [L3](diagrams/circuits/L3_circuit.svg) · [L4](diagrams/circuits/L4_circuit.svg) · [L5](diagrams/circuits/L5_circuit.svg) · [L6](diagrams/circuits/L6_circuit.svg) · [L7](diagrams/circuits/L7_circuit.svg) · [L8](diagrams/circuits/L8_circuit.svg) · [L9](diagrams/circuits/L9_circuit.svg) · [L10](diagrams/circuits/L10_circuit.svg). PNG copies are in [`diagrams/png/`](diagrams/png).
-
-## Tools and components
-| Item | Qty 
-|:--|:-:|:--|
-| Quad 2-input OR, 74xx32 pin-out | 3 
-| Quad 2-input AND, 74xx08 pin-out | 2 
-| 4 binary inputs (e.g. switches) | 4 
-| 10 output indicators (e.g. LEDs with resistors) | 10 
-| +5 V supply battery | 1 
 
 ## Repository structure
 ```
